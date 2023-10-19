@@ -86,7 +86,7 @@ class LandingPage extends StatelessWidget {
               //     textStyle: TextStyle(fontSize: 18),
               //   ),
               //   child: Text('Login'),
-              //),
+              ),
                SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
