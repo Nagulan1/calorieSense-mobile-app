@@ -1,7 +1,3 @@
-// 
-
-
-
 import 'package:flutter/material.dart';
 import 'user_input_screen.dart';
 import 'login_screen.dart'; // Import the LoginScreen class
@@ -76,18 +72,6 @@ class LandingPage extends StatelessWidget {
                 ),
                 child: Text('Login'),
               ),
-              // ElevatedButton(
-              //   onPressed: () {
-              //     Navigator.pushNamed(context, '/login'); // Navigate to login screen
-              //   },
-              //   style: ElevatedButton.styleFrom(
-              //     primary: Colors.purple,
-              //     padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-              //     textStyle: TextStyle(fontSize: 18),
-              //   ),
-              //   child: Text('Login'),
-              ),
-               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/signup'); // Navigate to signup screen

@@ -24,10 +24,10 @@ class _UserInputScreenState extends State<UserInputScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
+          children: <Widget>[
             Text('Gender'),
             Column(
-              children: [
+              children: <Widget>[
                 RadioListTile<Gender>(
                   title: Text('Male'),
                   value: Gender.male,
@@ -79,7 +79,7 @@ class _UserInputScreenState extends State<UserInputScreen> {
             ),
             Text('Activity Level'),
             Column(
-              children: [
+              children: <Widget>[
                 RadioListTile<ActivityLevel>(
                   title: Text('Sedentary'),
                   value: ActivityLevel.sedentary,
@@ -149,7 +149,7 @@ class _UserInputScreenState extends State<UserInputScreen> {
                     MaterialPageRoute(
                       builder: (context) => ResultsScreen(
                         bmr: bmr,
-                        requiredCalories: tdee, // Pass tdee instead of requiredCalories
+                        requiredCalories: tdee,
                       ),
                     ),
                   );
